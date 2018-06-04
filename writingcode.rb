@@ -17,7 +17,7 @@ def write_code(len)
   while len > 0
     sample :drum_bass_hard, amp: rrand(1, 3)
     sleep rrand(0.05, 0.2)
-    len -= 1
+    len -= 1 #comment
   end
 end
 
